@@ -1,0 +1,80 @@
+@import url(wknd_components.css);
+.b_20 {
+    position: absolute;
+    bottom: 20px;
+}
+.b_48 {
+    margin-bottom: 48px;
+}
+.hide_lg2,.hide_lg {
+    display: none;
+}
+.show_mobile {
+    display: none;
+}
+.mt_66 {
+    margin-bottom: 76px;
+}
+.mt_mb_72 {
+    margin-bottom: 48px;
+}
+.mb_51 {
+    margin-bottom: 51px;
+}
+.m_53 {
+    margin-top: 53px;
+}
+.articles_block {
+    margin-bottom: 24px;
+}
+.mt_28 {
+    margin-top: 54px;
+    margin-bottom: 48px;
+}
+.exclusive_content {
+    display: flex;
+    opacity: 0.4;
+}
+.exclusive {
+    margin-bottom: 0;
+    width: 348px;
+}
+
+@media (max-width: 1200px) {
+    .exclusive img {
+        width: 325px;
+    }
+    .exclusive {
+        margin-right: 20px;
+    }
+    .exclusive:last-child {
+        margin-right: 0;
+    }
+}
+@media (max-width: 992px) {
+    .hide_lg {
+        display: block;
+    }
+}
+@media (max-width: 767px) {
+    .hide_lg2 {
+        display: block;
+    }
+    .show_mobile {
+        display: flex;
+    }
+    .exclusive img {
+        width: 250px;
+    }
+    .article_types.exclusive {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .exclusive img {
+        width: 155px;
+    }
+    .mb_51 {
+        font-size: 12px;
+    }
+}

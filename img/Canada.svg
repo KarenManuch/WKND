@@ -1,0 +1,9 @@
+<svg id="Canada" xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14">
+  <rect id="Rectangle_182" data-name="Rectangle 182" width="20" height="14" fill="#eceff1"/>
+  <g id="Group_3000" data-name="Group 3000">
+    <rect id="Rectangle_183" data-name="Rectangle 183" width="4.545" height="14" transform="translate(15.455)" fill="#ff3d00"/>
+    <rect id="Rectangle_184" data-name="Rectangle 184" width="4.545" height="14" fill="#ff3d00"/>
+    <rect id="Rectangle_185" data-name="Rectangle 185" width="0.909" height="1.4" transform="translate(9.545 9.8)" fill="#ff3d00"/>
+    <path id="Path_2874" data-name="Path 2874" d="M23.182,20.6l-.909-.467.909-1.4H21.818l-.019-.927-1.05.541.16-2.414L20,16.4,19.094,15l-.912,1.4-.909-.467.16,2.4-1.051-.526s-.02.921-.018.926H15l.909,1.4L15,20.6l1.818.933v.933s2.146-.121,2.273-.121,2.273.121,2.273.121v-.933Z" transform="translate(-9.091 -12.2)" fill="#ff3d00"/>
+  </g>
+</svg>

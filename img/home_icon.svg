@@ -1,0 +1,8 @@
+<svg id="WKND-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="background" width="20" height="20" fill="none"/>
+  <g id="Dribbble-Light-Preview" transform="translate(-379.5 -720)">
+    <g id="icons" transform="translate(381 720)">
+      <path id="home-_1392_" data-name="home-[#1392]" d="M339.875,578h-3.187v-4h-6.375v4h-3.187v-9.208l6.364-5.986,6.386,6.006Zm2.07-9.994L333.47,560,325,567.994V580h7.438v-4h2.125v4H342V568.008Z" transform="translate(-325 -560)" fill="#202020" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

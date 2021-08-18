@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon icon" href="img/WKND-favicon-32.png">
+    <link rel="stylesheet" href="css/wknd_magazine.css">
+    <title>WKND / MAGAZINE</title>
+</head>
+<body>
+    <header class="full_width">
+        <div class="top_nav full_width">
+             <div class="top_nav_content container">
+                 <div class="account">
+                     <div class="user_img"></div>
+                     <div class="account_heading">ACCOUNT</div>
+                 </div>
+                 <div class="language" onclick="show_lang()">
+                     <img src="img/USA.svg" alt="">
+                     <div class="current_lang">USA - EN</div>
+                     <img src="img/down_arrow.svg" alt="">
+                     <ul class="language_block none" id="hidden_lang">
+                         <li class="language_item"><a href="">
+                             <img src="img/Canada.svg" alt="">
+                             <div class="country">
+                                 <div class="origin_name">ENGLISH | Français</div>
+                                 <div class="country_name">CANADA</div>
+                             </div>
+                         </a></li>
+                         <li class="language_item"><a href="">
+                             <img src="img/France.svg" alt="">
+                             <div class="country">
+                                 <div class="origin_name">Français</div>
+                                 <div class="country_name">France</div>
+                             </div>
+                         </a></li>
+                         <li class="language_item"><a href="">
+                             <img src="img/Germany.svg" alt="">
+                             <div class="country">
+                                 <div class="origin_name">DEUTSCH</div>
+                                 <div class="country_name">DEUTSCHLAND (GERMANY)</div>
+                             </div>
+                         </a></li>
+                         <li class="language_item"><a href="">
+                             <img src="img/Switzerland.svg" alt="">
+                             <div class="country">
+                                 <div class="origin_name">DEUTSCH | Français | Italiano</div>
+                                 <div class="country_name">SWITZERLAND</div>
+                             </div>
+                         </a></li>
+                         <li class="language_item"><a href="">
+                             <img src="img/USA.svg" alt="">
+                             <div class="country">
+                                 <div class="origin_name">ENGLISH | español</div>
+                                 <div class="country_name">USA</div>
+                             </div>
+                         </a></li>
+                     </ul>
+                 </div>
+             </div>
+        </div>
+        <div class="header_content container">
+            <div class="logo">
+                <a href="file:///C:/Users/User/Desktop/Karen/WKND/wknd_homePage/wknd_home_page.html"></a>
+            </div>
+            <div class="navigation">
+                <ul class="nav_item_row">
+                    <li class="nav_item top_nav_item active_top_nav">
+                        <a href="">MAGAZINE</a>
+                    </li>
+                    <li class="nav_item top_nav_item">
+                        <a href="">ADVENTURES</a>
+                    </li>
+                    <li class="nav_item  top_nav_item">
+                        <a href="">FAQ</a>
+                    </li>
+                    <li class="nav_item  top_nav_item">
+                        <a href="">ABOUT US</a>
+                    </li>
+                </ul>
+                <div class="input">
+                 <input type="text" placeholder="SEARCH">
+                 <img src="img/search_icon.svg" alt="">
+                </div>
+                <div class="burger_button none" onclick="open_bg()">
+                 <div class="bg_btn">
+                    <span class="bg_row"></span>
+                    <span class="bg_row"></span>
+                    <span class="bg_row"></span>
+                 </div>
+                    <ul class="burger_block none" id="hidden_bg">
+                        <li class="burger_item"><a href="">MAGAZINE</a></li>
+                        <li class="burger_item"><a href="">ADVENTURES</a></li>
+                        <li class="burger_item"><a href="">FAQ</a></li>
+                        <li class="burger_item"><a href="">ABOUT US</a></li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </header> 
+    <h1 class="b_48 container">Magazine</h1>
+    <div class="secondary_block mt_66 container">
+        <div class="secondary_block_info">
+            <div class="h2">
+                <h2>Last Article</h2>
+                <span class="h2"></span>
+            </div>
+            <h3 class="mt_mb">Camping in Western <br> Australia</h3>
+            <p class="secondary_text">A vibrant red, dusty highway stretches out before us into what seems like infinity, at the far reach of our sights it distorts and shimmers from the afternoon heat, fading into the blue of the horizon.</p>
+            <a href="" class="b_20 outline btn">Read More</a>
+        </div>
+        <div class="secondary_img"></div>
+    </div>
+    <div class="mt_mb_72 articles_heading container">
+        <h2>All Articles</h2>
+        <span></span>
+    </div> 
+    <div class="articles_block container">
+        <div class="article_types">
+            <img src="img/article1_img.svg" alt="">
+            <h4>ULTIMATE GUIDE TO LA SKATEPARKS</h4>
+            <h6>Stacey Roswells</h6>
+        </div>
+        <div class="article_types">
+            <img src="img/article2_img.svg" alt="">
+            <h4>SKIITOURING</h4>
+            <h6>Sofia Sjöberg</h6>
+        </div>
+        <div class="article_types">
+            <img src="img/article3_img.svg" alt="">
+            <h4>ARCTIC SURFING</h4>
+            <h6>Jacob Wester</h6>
+        </div>
+        <div class="article_types">
+            <img src="img/article4_img.svg" alt="">
+            <h4>SAN DIEGO SURF SPOTS</h4>
+            <h6>Justin Barr</h6>
+        </div>
+        <div class="article_types">
+            <img src="img/article_9.svg" alt="">
+            <h4>WESTERN AUSTRALIA</h4>
+            <h6>SOFIA SJÖBERG</h6>
+        </div>
+    </div>
+    <div class="mt_28 articles_heading container">
+        <h2>Members Only</h2>
+        <span></span>
+    </div> 
+    <p class="mb_51 container"><b>Sign</b> in to un-lock exclusive content for WKND members only!</p>
+    <div class="exclusive_content container">
+        <div class="article_types exclusive">
+            <img src="img/article_pro1.svg" alt="">
+            <h4>ALASKAN ADVENTURE</h4>
+            <h6>DISCOVER THE 49TH STATE</h6>
+        </div>
+        <div class="article_types exclusive">
+            <img src="img/article_pro2.svg" alt="">
+            <h4>DISCOVER THE 49TH STATE</h4>
+            <h6>EXPERIENCE THE AMAZON LIKE NEVER BEFORE</h6>
+        </div>
+    </div>
+    <hr class="m_53">
+    <script src="js/wknd_magazine.js"></script>
+</body>
+</html>

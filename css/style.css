@@ -1,0 +1,77 @@
+@import url(wknd_components.css);
+body {
+    margin: 0;
+    padding: 0;
+}
+.img_switch img {
+    cursor: pointer;
+}
+.mt_66 {
+    margin-top: 66px;
+}
+.mt_mb {
+    margin: 20px 0;
+}
+.mb_72 {
+    margin-bottom: 72px;
+}
+.b_20 {
+    position: absolute;
+    bottom: 20px;
+}
+.mt_mb_72 {
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+.mb_48 {
+    margin-bottom: 48px;
+}
+/********* SLIDER *********/
+.slide {
+    display: none;
+}
+.slide img {
+    width: 100%;
+}
+.slider .active_slide {
+    display: flex; 
+    justify-content: center;
+    position: relative;
+}
+.about_slide {
+    position: absolute;
+    background-color: var(--bgColor);
+    height: min-content;
+    padding: 24px 33px 20px 33px;
+    bottom: 0;
+}
+.nav_dots>.active_slide {
+    background-color: var(--font);
+}
+@media (max-width: 1200px) {
+    .mt_mb {
+        margin: 10px 0;
+    }
+    .about_slide {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 992px) {
+    .b_20 {
+        bottom: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .about_slide.container {
+        width: calc(100% - 40px);
+    }
+    .slide.active_slide {
+        display: flex;
+        flex-direction: column;
+    }
+    .about_slide {
+        position: relative;
+    }
+}
+
+
