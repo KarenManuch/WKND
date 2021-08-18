@@ -39,7 +39,9 @@
     margin-bottom: 0;
     width: 348px;
 }
-
+.mb_72 {
+    margin-bottom: 72px;
+}
 @media (max-width: 1200px) {
     .exclusive img {
         width: 325px;
