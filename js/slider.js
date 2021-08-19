@@ -14,9 +14,22 @@ let manualNav = function(manual) {
     slides[manual].classList.add('active_slide');
     btns[manual].classList.add('active_slide');
 }
+
+right.onclick = function () {
+    let current_slide = document.querySelector(".active_slide");
+    let current_dot = document.querySelector(".nav_dot.active_slide");
+    current_slide.nextElementSibling.classList.add("active_slide");
+    current_slide.classList.remove("active_slide");
+    current_dot.nextElementSibling.classList.add("active_slide");
+    current_dot.classList.remove("active_slide");
+}
 left.onclick = function () {
-    document.getElementsByClassName('active_slide').previousElementSibling
-    document.getElementsByClassName('active_slide').classList.remove('active_slide');
+    let current_slide = document.querySelector(".active_slide");
+    let current_dot = document.querySelector(".nav_dot.active_slide");
+    current_slide.previousElementSibling.classList.add("active_slide");
+    current_slide.classList.remove("active_slide");
+    current_dot.previousElementSibling.classList.add("active_slide");
+    current_dot.classList.remove("active_slide");
 }
 /*btns.forEach((btn, i) => {
     btn.addEventListener("click", () => {
